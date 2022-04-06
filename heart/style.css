@@ -1,24 +1,22 @@
 .heart {
+  color: red;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   margin: auto;
-  width: 400px;
-  height: 400px;
-  background-color: red;
+  width: 200px;
+  height: 200px;
+  background-color: currentColor;
   transform: rotate(-45deg);
 }
 
 .heart::after {
   position: absolute;
   content: '';
-  right: -200px;
+  right: -100px;
   top: 0px;
-  width: 400px;
-  height: 400px;
-  background-color: red;
+  width: 200px;
+  height: 200px;
+  background-color:currentColor;
   border-radius: 50%;
 }
 
@@ -26,9 +24,9 @@
   position: absolute;
   content: '';
   left: 0px;
-  top: -200px;
-  width: 400px;
-  height: 400px;
-  background-color: red;
+  top: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: currentColor;
   border-radius: 50%;
 }
