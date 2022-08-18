@@ -1,2 +1,1 @@
-# single-div
-Creating figures with a sngle &lt;div>&lt;/div>
+CSS and SVG drawing project.
