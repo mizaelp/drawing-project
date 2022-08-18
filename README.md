@@ -1,1 +1,1 @@
-CSS and SVG drawing project.
+Drawing with single DIV(CSS) and SVG.
