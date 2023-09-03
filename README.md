@@ -1,1 +1,1 @@
-# Drawing with pure CSS.
+# Drawing with pure CSS and SVG.
